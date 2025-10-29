@@ -1,0 +1,22 @@
+[project]
+name = "solar-forecasting"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Hugo",email = "128321306+Icaro1ronaldo@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "numpy (>=2.3.4,<3.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "xgboost (>=3.1.1,<4.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
