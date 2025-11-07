@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #!/bin/bash
 
@@ -43,3 +44,18 @@ echo -e "${GREEN}${CHECK} Poetry setup complete!${RESET}"
 # Activate Poetry shell
 echo -e "${INFO} Activating Poetry shell..."
 poetry shell
+=======
+#!/bin/bash
+echo "🚀 Setting up Poetry environment..."
+
+# Install Poetry (official method)
+curl -sSL https://install.python-poetry.org | python3 -
+
+# Add Poetry to PATH for this session
+export PATH="/root/.local/bin:$PATH"
+
+# Install dependencies
+poetry install
+
+echo "✅ Poetry setup complete!"
+>>>>>>> 36a8ba9a0fac28dabd02bccade92ff6b00112335
