@@ -1,13 +1,11 @@
 {
   "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
-
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
       "version": "latest",
       "moby": true
     }
   },
-
   "customizations": {
     "vscode": {
       "extensions": [
@@ -23,6 +21,9 @@
         "GitHub.copilot"
       ]
     }
+  },
+  "containerEnv": {
+    "PYTHONPATH": "/workspaces/solar_forecasting"
   },
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }
