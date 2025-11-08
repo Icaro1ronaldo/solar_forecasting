@@ -9,16 +9,17 @@ CHECK="✅"
 INFO="ℹ️"
 ROCKET="🚀"
 
+# Ensure Poetry is in PATH
+export PATH="$HOME/.local/bin:$PATH"
+
+
 echo -e "${INFO} ${ROCKET} Setting up Poetry environment..."
 
 # Install Poetry (official method)
 echo -e "${INFO} Installing Poetry..."
 curl -sSL https://install.python-poetry.org | python3 -
-export PATH="/root/.local/bin:$PATH"
 echo -e "${GREEN}${CHECK} Poetry installed successfully!${RESET}"
-
 echo -e "${INFO} Poetry already installed, skipping."
-
 
 # Create .venv folder if not exists
 
