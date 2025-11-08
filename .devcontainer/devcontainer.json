@@ -2,7 +2,7 @@
   "name": "Poetry Codespace",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2.12.4": {
       "version": "latest",
       "moby": true
     }
