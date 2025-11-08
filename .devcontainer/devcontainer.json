@@ -1,4 +1,6 @@
+
 {
+  "name": "Solar Forecasting Dev Container",
   "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
@@ -22,6 +24,7 @@
       ]
     }
   },
+  "workspaceFolder": "/workspaces/solar_forecasting",
   "containerEnv": {
     "PYTHONPATH": "/workspaces/solar_forecasting"
   },
