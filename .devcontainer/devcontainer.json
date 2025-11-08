@@ -1,6 +1,12 @@
 {
   "name": "Poetry Codespace",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
+      "version": "latest",
+      "moby": true
+    }
+  },
   "workspaceFolder": "/workspaces/solar_forecasting",
   "customizations": {
     "vscode": {
