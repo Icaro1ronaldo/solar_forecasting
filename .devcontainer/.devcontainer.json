@@ -2,11 +2,14 @@
 {
   "name": "Poetry Codespace",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "workspaceFolder": "/workspaces/${solar_forecasting}",
+  "workspaceFolder": "/workspaces/solar_forecasting",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers/features/python:1": {
       "version": "3.12"
+    },
+    "ghcr.io/devcontainers/features/poetry:1": {
+      "version": "latest"
     }
   },
   "postCreateCommand": "bash .devcontainer/postcommand.sh",
