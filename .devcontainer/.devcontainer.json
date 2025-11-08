@@ -1,15 +1,34 @@
-
 {
+<<<<<<< HEAD
   "name": "Poetry Codespace",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "workspaceFolder": "/workspaces/solar_forecasting",
   "postCreateCommand": "bash .devcontainer/postcommand.sh",
+=======
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
+      "version": "latest",
+      "moby": true
+    }
+  },
+>>>>>>> 81c4f8f (correction set up)
   "customizations": {
     "vscode": {
       "extensions": [
+        "eamodio.gitlens",
+        "GitHub.vscode-github-actions",
+        "mechatroner.rainbow-csv",
+        "ms-python.black-formatter",
+        "ms-python.debugpy",
         "ms-python.python",
-        "ms-toolsai.jupyter"
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "oderwat.indent",
+        "GitHub.copilot"
       ]
     }
-  }
+  },
+  "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }
