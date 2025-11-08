@@ -1,19 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "Poetry Codespace",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "workspaceFolder": "/workspaces/solar_forecasting",
-  "postCreateCommand": "bash .devcontainer/postcommand.sh",
-=======
-  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
-
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {
-      "version": "latest",
-      "moby": true
-    }
-  },
->>>>>>> 81c4f8f (correction set up)
   "customizations": {
     "vscode": {
       "extensions": [
