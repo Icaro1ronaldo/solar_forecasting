@@ -26,7 +26,7 @@
   },
   "workspaceFolder": "/workspaces/solar_forecasting",
   "containerEnv": {
-    "PYTHONPATH": "/workspaces/solar_forecasting"
+    "PYTHONPATH": "${env:PYTHONPATH}"
   },
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }
