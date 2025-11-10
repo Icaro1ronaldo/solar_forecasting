@@ -17,6 +17,8 @@ As the energy sector transitions toward sustainable sources, accurate forecastin
 
 ## 📁 Project Structure
 
+
+.
 ├── .devcontainer/                  # Development container configuration for VS Code
 ├── data/                           # Raw and processed datasets
 ├── notebooks/                      # Jupyter notebooks for EDA and modeling
