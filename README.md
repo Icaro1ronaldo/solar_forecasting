@@ -18,21 +18,21 @@ As the energy sector transitions toward sustainable sources, accurate forecastin
 ## 📁 Project Structure
 
 
-├── .devcontainer/                  # Development container configuration for VS Code
-├── data/                           # Raw and processed datasets
-├── notebooks/                      # Jupyter notebooks for EDA and modeling
-├── src/                            # Source code
-│   ├── data_quality/               # Data validation and completeness checks
-│   ├── forecasting_evaluation/     # Evaluation metrics and visualization scripts
-│   ├── models/                     # Model implementations
-│   │   ├── lstm/                   # LSTM-based forecasting models
-│   │   ├── random_forest_regressor_model/  # Random Forest model
-│   │   └── xgboost_model/          # XGBoost model
-│   ├── utils/                      # Utility functions and helpers
-│   └── data_loader.py              # Module for loading and preprocessing data
-├── pyproject.toml                  # Poetry configuration file
-├── poetry.lock                     # Locked dependency versions
-└── README.md                       # Project documentation
+    ├── .devcontainer/                  # Development container configuration for VS Code
+    ├── data/                           # Raw and processed datasets
+    ├── notebooks/                      # Jupyter notebooks for EDA and modeling
+    ├── src/                            # Source code
+    │   ├── data_quality/               # Data validation and completeness checks
+    │   ├── forecasting_evaluation/     # Evaluation metrics and visualization scripts
+    │   ├── models/                     # Model implementations
+    │   │   ├── lstm/                   # LSTM-based forecasting models
+    │   │   ├── random_forest_regressor_model/  # Random Forest model
+    │   │   └── xgboost_model/          # XGBoost model
+    │   ├── utils/                      # Utility functions and helpers
+    │   └── data_loader.py              # Module for loading and preprocessing data
+    ├── pyproject.toml                  # Poetry configuration file
+    ├── poetry.lock                     # Locked dependency versions
+    └── README.md                       # Project documentation
 
 
 
