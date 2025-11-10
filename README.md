@@ -18,7 +18,6 @@ As the energy sector transitions toward sustainable sources, accurate forecastin
 ## 📁 Project Structure
 
 
-.
 ├── .devcontainer/                  # Development container configuration for VS Code
 ├── data/                           # Raw and processed datasets
 ├── notebooks/                      # Jupyter notebooks for EDA and modeling
@@ -35,17 +34,17 @@ As the energy sector transitions toward sustainable sources, accurate forecastin
 ├── poetry.lock                     # Locked dependency versions
 └── README.md                       # Project documentation
 
----
+
 
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/your-username/renewable-energy-forecasting.git
 cd renewable-energy-forecasting
 
-2. Set up the development environment
+### 2. Set up the development environment
+
 This project includes a .devcontainer folder for use with https://code.visualstudio.com/docs/devcontainers/containers. To get started:
 
 Install https://www.docker.com/
@@ -54,7 +53,8 @@ Open the project in VS Code and select:
 "Reopen in Container"
 
 This will automatically set up the environment with all dependencies installed.
-3. Alternatively, install dependencies manually with Poetry
+
+### 3. Alternatively, install dependencies manually with Poetry
 If you're not using the dev container:
 
 📈 Example
