@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from typing import Optional, Dict, Any
@@ -133,3 +134,31 @@ def plot_outliers(data, feature):
     ax.set_xticks([i for i in range(1, 97, 4)])
     ax.set_xticklabels([i for i in range(24)])
     ax.legend(["data", "outliers_high", "outliers_low"])
+
+
+def plot_predictions(test, predicted):
+    plt.figure(figsize=(14, 6))
+    plt.plot(test, label="Actual AC power", linewidth=3)
+    plt.plot(predicted, label="Predicted AC power", linewidth=3)
+    plt.xlabel("Time")
+    plt.ylabel("AC Power Generated")
+    plt.legend()
+    plt.show()
+
+
+def plot_forecast_day(test, predicted, forecast_pred, title=None):
+    date_range = pd.date_range(
+        start="2020-07-15 23:45:00", periods=len(forecast_pred), freq="15min"
+    )
+    future_days = pd.DataFrame({"Date": date_range, "Forecast": forecast_pred})
+    future_days.index = future_days["Date"]
+    plt.figure(figsize=(14, 6))
+    plt.plot(test, label="Actual AC power", linewidth=3)
+    plt.plot(predicted, label="Predicted AC power", linewidth=3)
+    plt.plot(future_days["Forecast"], label="Forecasted AC power", linewidth=3)
+    plt.xlabel("Time")
+    plt.ylabel("AC Power Generated")
+    plt.legend()
+    if title:
+        plt.title(title)
+    plt.show()
