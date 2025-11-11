@@ -1,6 +1,7 @@
 # ⚡ Predicting Renewable Energy Power Generation
 
 ![Demo](data/corrdiff-before_after.gif)
+![Demo](data/forecast_animation.gif)
 
 As the energy sector transitions toward sustainable sources, accurate forecasting of renewable energy production is essential for efficient grid management, energy trading, and system reliability. This project leverages machine learning models to predict power generation from renewable sources—such as solar and wind—based on weather and environmental data.
 
