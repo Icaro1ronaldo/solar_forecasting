@@ -59,7 +59,7 @@ This will automatically set up the environment with all dependencies installed.
 If you're not using the dev container:
 
 📈 Example
-notebooks/solar_forecasting.ipynb
+notebooks/solar_forecasting.ipynb 
 
 🤝 Contributing
 Contributions are welcome! If you'd like to improve this project, feel free to fork the repo, open an issue, or submit a pull request.
