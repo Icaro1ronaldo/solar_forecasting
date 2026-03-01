@@ -16,7 +16,7 @@ As the energy sector transitions toward sustainable sources, accurate forecastin
 - Dependency management with [Poetry](https://python-poetry.org/)
 - Reproducible development environment using `.devcontainer`
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
 
     ├── .devcontainer/                  # Development container configuration for VS Code
